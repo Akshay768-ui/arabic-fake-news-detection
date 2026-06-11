@@ -27,6 +27,28 @@ Python, PyTorch, Hugging Face Transformers, Scikit-learn, Pandas, NumPy, Matplot
 | AraBERT | 96.13% |
 | Hybrid MarBERT+LSTM | 94.18% |
 
+## Confusion Matrices
+
+### Support Vector Machine (SVM)
+
+![SVM](svm_confusion_matrix.png)
+
+### Naive Bayes
+
+![Naive Bayes](naive_bayes_confusion_matrix.png)
+
+### Long Short-Term Memory (LSTM)
+
+![LSTM](lstm_confusion_matrix.png)
+
+### AraBERT
+
+![AraBERT](arabert_confusion_matrix.png)
+
+### Hybrid MarBERT + LSTM
+
+![Hybrid](hybrid_marbert_lstm_confusion_matrix.png)
+
 ## Future Work
 - Improve Hybrid MarBERT+LSTM architecture
 - Reduce training epochs
